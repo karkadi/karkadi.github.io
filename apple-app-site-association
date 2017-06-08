@@ -1,13 +1,13 @@
 
 {
 "activitycontinuation": {
-"apps": ["RCLJEH76JG.fr.fdj.parionssport.debug"]
+"apps": ["VGLDHA96VG.fr.fdj.parionssport-inHouse"]
 },
 "applinks": {
 "apps": [],
 "details": [
 {
-"appID": "RCLJEH76JG.fr.fdj.parionssport.debug",
+"appID": "VGLDHA96VG.fr.fdj.parionssport-inHouse",
 "paths": ["*"]
 }
 ]
