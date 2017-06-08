@@ -1,0 +1,15 @@
+
+{
+"activitycontinuation": {
+"apps": ["RCLJEH76JG.fr.fdj.parionssport.debug"]
+},
+"applinks": {
+"apps": [],
+"details": [
+{
+"appID": "RCLJEH76JG.fr.fdj.parionssport.debug",
+"paths": ["*"]
+}
+]
+}
+}
