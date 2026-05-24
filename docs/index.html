@@ -1,0 +1,832 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>
+      LocalMind & Swift Projects | Full-stack iOS, AI, Game & Embedded Showcase
+    </title>
+    <!-- Google Fonts + Font Awesome 6 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h1>⚡ Swift • TCA • AI • Metal • FPGA</h1>
+        <p>
+          Cutting-edge Apple ecosystem projects — from offline AI chat and
+          neural Tetris to 3D RealityKit adventures and full‑stack Swift
+          GraphQL.
+        </p>
+        <div class="badge-collective">
+          <span class="pill"><i class="fab fa-swift"></i> Swift 6.0</span>
+          <span class="pill"
+            ><i class="fas fa-brain"></i> The Composable Architecture</span
+          >
+          <span class="pill"
+            ><i class="fas fa-cloud-arrow-up"></i> iCloud Sync</span
+          >
+          <span class="pill"
+            ><i class="fas fa-microchip"></i> FPGA / Verilog</span
+          >
+          <span class="pill"
+            ><i class="fas fa-dice-d6"></i> Neural Networks</span
+          >
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <!-- 1. LocalMind -->
+        <div class="card">
+          <div class="project-icon">
+            <i class="fas fa-comment-dots" style="font-size: 2.8rem"></i>
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              LocalMind
+              <span class="platform-badge"
+                ><i class="fab fa-apple"></i> iOS/iPad/macOS</span
+              >
+            </div>
+            <div class="desc">
+              Offline AI chat with Apple Intelligence • Liquid Glass UI •
+              streaming responses & LaTeX math rendering.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Screenshots:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-moon"></i> dark.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-sun"></i> light.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fab fa-apple"></i> macos.png</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/localmind_1.png"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="gif-card">
+                  <img
+                    src="/images/localmind_2.png"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Swift 6</span
+              ><span class="badge-tech">TCA</span
+              ><span class="badge-tech">Foundation Models</span
+              ><span class="badge-tech">SQLite</span
+              ><span class="badge-tech">CloudKit</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-robot"></i> On‑device AI with async/await
+                streaming
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-sync-alt"></i> iCloud cross-device sync &
+                search
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-square-root-variable"></i> LaTeX formulas &
+                full‑text history
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-glass-cheers"></i> Liquid Glass UI + haptic
+                feedback
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/LocalMind"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Explore LocalMind</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Tetris AI -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              Tetris AI <span class="platform-badge">iPhone / SwiftUI</span>
+            </div>
+            <div class="desc">
+              Classic Tetris with intelligent AI Demo Mode powered by neural
+              network & genetic algorithm.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Previews:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-chart-simple"></i> demo.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-play-circle"></i> demo.gif</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/tetris.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Swift 6</span
+              ><span class="badge-tech">TCA</span
+              ><span class="badge-tech">Neural Network</span
+              ><span class="badge-tech">Genetic Algo</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-microchip"></i> AI‑driven demo using feature
+                extraction
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-chart-line"></i> 94% test coverage / genetic
+                training
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-tachometer-alt"></i> Responsive swipe controls
+                & high scores
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-brain"></i> Self‑play optimization
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/TetrisApp"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Tetris + AI</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. FalloutPipBoy Watch -->
+        <div class="card">
+          <div class="project-icon">
+            <i class="fas fa-biohazard"></i>
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              FalloutPipBoy <span class="platform-badge">watchOS</span>
+            </div>
+            <div class="desc">
+              Three unique watch faces: Fallout Pip-Boy, Rotating Seconds, Back
+              to the Future + HealthKit.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Demos:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-film"></i> demo.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-film"></i> demo1.gif</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/pipboy.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="gif-card">
+                  <img
+                    src="/images/pipboy_1.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">SwiftUI</span
+              ><span class="badge-tech">HealthKit</span
+              ><span class="badge-tech">Swift 6</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-skull"></i> Retro‑futuristic Pip-Boy theme
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-heartbeat"></i> Real‑time health metrics
+                (steps, heart)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-hourglass-half"></i> Rotating seconds & flux
+                capacitor
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-mobile-alt"></i> MainActor isolation +
+                structured concurrency
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/FalloutPipBoy"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Watch faces</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. StreamingAudioPlayer -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-music"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              StreamingAudio <span class="platform-badge">iOS + Metal</span>
+            </div>
+            <div class="desc">
+              Online radio player with Metal‑powered visualizations, SwiftData
+              persistence & TCA.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Gallery:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-play"></i> demo.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-headphones"></i> player.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-list"></i> list.png</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/streaming.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">AVFoundation</span
+              ><span class="badge-tech">Metal</span
+              ><span class="badge-tech">SwiftData</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-tower-broadcast"></i> Live radio streaming &
+                metadata
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-star"></i> Favorites library (SwiftData +
+                iCloud)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-waveform"></i> Metal shader animations /
+                reactive UI
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-backward-step"></i> Background audio &
+                async/await
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/StreamingAudioPlayer"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Radio player</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. WritingPenApp -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-pen-fancy"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              WritingPen <span class="platform-badge">iOS / macOS</span>
+            </div>
+            <div class="desc">
+              Cross‑platform smooth handwriting animation: stroke‑by‑stroke text
+              reveal, SVG support.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Previews:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-moon"></i> dark.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-sun"></i> light.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fab fa-apple"></i> macos.png</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/writing.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Core Text</span
+              ><span class="badge-tech">SwiftUI</span
+              ><span class="badge-tech">CGPath</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-draw-polygon"></i> Realistic pen tracking &
+                trimmedPath
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-arrows-spin"></i> Auto‑scaling text‑to‑path
+                transformation
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-laptop-code"></i> Native macOS + iOS with
+                platform fonts
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-svg"></i> SVG asset rendering support
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/WritingPenApp"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> WritingPen</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. WalkingRecords -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-person-walking"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              WalkingRecords <span class="platform-badge">Tracker + TCA</span>
+            </div>
+            <div class="desc">
+              GPS route recorder with real‑time stats, MapKit, SwiftData & Metal
+              animation.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Views:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-map"></i> demo.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-moon"></i> dark.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-sun"></i> light.png</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/walking.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">MapKit</span
+              ><span class="badge-tech">SwiftData</span
+              ><span class="badge-tech">TCA</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-map-marked-alt"></i> Live route tracking & GPX
+                export
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-chart-line"></i> Distance / speed / duration
+                analytics
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-charging-station"></i> Background location
+                updates (structured concurrency)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-moon"></i> Light/dark adaptive + demo mode
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/WalkingRecords"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> WalkingRecords</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. DustingSceneKitApp (Marvel) -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-dragon"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              Marvel Dusting <span class="platform-badge">SpriteKit</span>
+            </div>
+            <div class="desc">
+              Layer‑by‑layer disintegration effect inspired by Avengers:
+              Infinity War.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Effect:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-video"></i> demo.gif</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/marvel.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">SpriteKit</span
+              ><span class="badge-tech">Core Graphics</span
+              ><span class="badge-tech">Swift 6</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-dust"></i> 16 disintegration layers + spiral
+                chaos
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-rotate-left"></i> Tap to reassemble / smooth
+                transitions
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-camera-rotate"></i> Rotating dusting scene +
+                cross‑fade
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-image"></i> Custom pixel-perfect particle
+                generation
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/DustingSceneKitApp"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Dust effect</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. FPGA TM1638 -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-microchip"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              TM1638 FPGA
+              <span class="platform-badge">Verilog / Cyclone IV</span>
+            </div>
+            <div class="desc">
+              Complete driver for TM1638 LED+Key module: 8-digit 7‑segment, 8
+              LEDs & 8 buttons.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Hardware:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-microchip"></i> fpga_board.jpg</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-diagram-project"></i> demo.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-keyboard"></i> TM1638_LED&KEYS.jpg</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/fpga.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Verilog</span
+              ><span class="badge-tech">FPGA</span
+              ><span class="badge-tech">Quartus</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-keyboard"></i> 8 key scanning + LED control
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-chart-simple"></i> Decimal counter (0-9 per
+                digit)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-plug"></i> 50MHz clock / level shifter ready
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-terminal"></i> Low resource usage: ~396 LE
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/TM1638_FPGA"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> FPGA TM1638</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. GraphQlExample Fullstack -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-rocket"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              GraphQlExample
+              <span class="platform-badge">Vapor + GraphQL</span>
+            </div>
+            <div class="desc">
+              Full‑stack Swift: Vapor GraphQL server + iOS client managing
+              launches & rockets.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> UI:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-mobile-alt"></i> demo.gif (client)</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-server"></i> GraphQL schema</span
+              >
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Swift 6</span
+              ><span class="badge-tech">Vapor 4</span
+              ><span class="badge-tech">GraphQL</span
+              ><span class="badge-tech">Apollo iOS</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-database"></i> SQLite + Fluent ORM (async
+                resolvers)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-charging-station"></i> CRUD mutations & strict
+                concurrency
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-mobile-screen"></i> SwiftUI client with
+                @MainActor
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-cloud-upload-alt"></i> End‑to‑end Sendable &
+                actor isolation
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/GraphQlExample"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Full‑stack Swift</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Abyssal‑6 iOS Port -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-water"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              Abyssal‑6
+              <span class="platform-badge">RealityKit / Text‑Based</span>
+            </div>
+            <div class="desc">
+              Deep‑sea text adventure with 3D character gallery, Reactor Puzzle,
+              and RealityKit carousel.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Captures:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-tablet-alt"></i> ipad.jpg</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-dice-d6"></i> sas.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-trophy"></i> win.gif</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/abyssal.jpg"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="gif-card">
+                  <img
+                    src="https://kazazyanalexander.github.io/Abyssale-6/images/sas.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="gif-card">
+                  <img
+                    src="https://kazazyanalexander.github.io/Abyssale-6/images/win.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">SwiftUI</span
+              ><span class="badge-tech">RealityKit</span
+              ><span class="badge-tech">AVAudioPlayer</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-cube"></i> 3D rotating pedestal gallery (USDZ)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-terminal"></i> Classic parser with touch
+                context menus
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-microphone-alt"></i> Millman theorem reactor
+                puzzle & easter egg
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-language"></i> Multi‑language (EN, FR, DE) +
+                i18n
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/Abyssal6-iOS"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Abyssal‑6 iOS</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 11. Rick and Morty App (NEW) -->
+        <div class="card">
+          <div class="project-icon"><i class="fas fa-atom"></i></div>
+          <div class="card-content">
+            <div class="card-title">
+              Rick and Morty
+              <span class="platform-badge"
+                ><i class="fab fa-apple"></i> iOS</span
+              >
+            </div>
+            <div class="desc">
+              SwiftUI app to explore characters from the Rick and Morty universe
+              — grid browsing, details, search & filter.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Gallery:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-th-large"></i> main.png</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-play"></i> demo.gif</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-info-circle"></i> details.png</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <img
+                    src="/images/rick_morty.gif"
+                    alt="Gameplay SAS"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Swift 6</span
+              ><span class="badge-tech">TCA</span
+              ><span class="badge-tech">SwiftData</span
+              ><span class="badge-tech">REST API</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-th-large"></i> Dynamic character grid with
+                status badges
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-info-circle"></i> Rich detail view (episodes,
+                origin, species)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-search"></i> Search & real‑time filtering
+                (Alive/Dead/Unknown)
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-moon"></i> Light/dark mode adaptive & SwiftUI
+                animations
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-database"></i> Offline caching with SwiftData +
+                concurrency
+              </li>
+            </ul>
+            <div class="card-footer">
+              <a
+                href="https://github.com/karkadi/RickAndMorty"
+                target="_blank"
+                class="repo-link"
+                ><i class="fab fa-github"></i> Rick and Morty App</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          <i class="fab fa-swift"></i> Built with Swift 6, The Composable
+          Architecture, SwiftUI, Metal, SpriteKit, Vapor, RealityKit & FPGA —
+          all projects leverage modern concurrency (async/await, actors,
+          Sendable).
+        </p>
+        <p style="margin-top: 0.8rem">
+          📸 Screenshots referenced from each repo's
+          <code>/ScreenShoots</code> folder. Full portfolio available on GitHub
+          (karkadi). MIT licensed.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
