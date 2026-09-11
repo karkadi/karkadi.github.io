@@ -34,6 +34,41 @@
 
       gtag("config", "G-50D3P9B1ZB");
     </script>
+    <style>
+      .gif-card video {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        display: block;
+        background: #0b0f17;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      }
+      .gif-card {
+        border-radius: 12px;
+        overflow: hidden;
+        background: #1a1f2b;
+      }
+      .screenshot-thumb i {
+        margin-right: 6px;
+      }
+      .platform-badge i {
+        margin-right: 4px;
+      }
+      /* ensure consistent card height */
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      .card-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .card-footer {
+        margin-top: auto;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -62,6 +97,81 @@
       </div>
 
       <div class="projects-grid">
+        <div class="card">
+          <div class="project-icon">
+            <i class="fas fa-robot" style="font-size: 2.8rem"></i>
+          </div>
+          <div class="card-content">
+            <div class="card-title">
+              Synthetic Management
+              <span class="platform-badge"
+                ><i class="fab fa-apple"></i> iPad / iPhone</span
+              >
+            </div>
+            <div class="desc">
+              AI-powered executive layer — persistent context, defensive
+              integrity, and real‑time oversight for mid‑size companies.
+            </div>
+            <div class="screenshot-row">
+              <span class="screenshot-label"
+                ><i class="fas fa-camera"></i> Demos:</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-video"></i> iphone_presentation.mp4</span
+              >
+              <span class="screenshot-thumb"
+                ><i class="fas fa-video"></i> ipad_presentation.mp4</span
+              >
+              <div class="gif-grid">
+                <div class="gif-card">
+                  <video
+                    src="images/iphone_presentation.mp4"
+                    controls
+                    muted
+                    loop
+                    playsinline
+                    poster=""
+                  ></video>
+                </div>
+                <div class="gif-card">
+                  <video
+                    src="images/ipad_presentation.mp4"
+                    controls
+                    muted
+                    loop
+                    playsinline
+                    poster=""
+                  ></video>
+                </div>
+              </div>
+            </div>
+            <div class="tech-stack">
+              <span class="badge-tech">Swift 6</span
+              ><span class="badge-tech">SwiftUI</span
+              ><span class="badge-tech">TCA</span
+              ><span class="badge-tech">SIL</span>
+            </div>
+            <ul class="feature-list">
+              <li class="feature-item">
+                <i class="fas fa-crown"></i> Synthetic Intelligence Layer (SIL)
+                with persistent roles
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-shield"></i> Five Refusals: no gap‑filling,
+                confidence ceilings
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-chart-line"></i> Executive Control Tower:
+                health vs. oversight gap
+              </li>
+              <li class="feature-item">
+                <i class="fas fa-cash-register"></i> Cash planning, margin
+                recovery & valuation uplift
+              </li>
+            </ul>
+          </div>
+        </div>
+
         <!-- 1. LocalMind -->
         <div class="card">
           <div class="project-icon">
