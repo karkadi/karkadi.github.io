@@ -252,6 +252,39 @@ body {
   background: #3b82f6;
   color: white;
 }
+.gif-card video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  background: #0b0f17;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.gif-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1f2b;
+}
+.screenshot-thumb i {
+  margin-right: 6px;
+}
+.platform-badge i {
+  margin-right: 4px;
+}
+/* ensure consistent card height */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-footer {
+  margin-top: auto;
+}
 footer {
   margin-top: 4rem;
   text-align: center;
